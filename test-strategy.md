@@ -50,3 +50,11 @@ Evidencias del código corregido
 8- Los resultados ganar/perder estaban invertidos.
 9- Se modificó el valor de ATTEMPS por 10 para coincidir con el mensaje inicial.
 10- La comparación entre los métodos userGuess y randomNumber estaban mal ya que para que se generé correctamente la conversion el primero debe ser string para poder cambiarlo a number.
+
+8- Validación de input por la cantidad de caracteres de entrada
+Descripción: Ingresar más de 3 valores enteros.
+Resultado esperado:  Mostrar el mensaje “Cantidad de dígitos incorrecta, intente ingresando valores enteros (3 dígitos)”.
+
+9- Validación del input caracteres y números flotantes o decimales
+Descripción: Ingresar un valor no numérico como caracteres tipo string y digitos numéricos combinados.
+Resultado esperado:  Mostrar el mensaje “Tipo de datos no permitido, intente ingresando valores enteros (3 dígitos).”
