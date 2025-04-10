@@ -39,7 +39,7 @@ Resultado esperado:  Mostrar el mensaje “Cantidad de dígitos incorrecta, inte
 Descripción: Ingresar un valor no numérico como caracteres tipo string y digitos numéricos combinados.
 Resultado esperado:  Mostrar el mensaje “Tipo de datos no permitido, intente ingresando valores enteros (3 dígitos).”
 
-Evidencias del código corregido:
+Evidencias del código corregido
 1- El juego se concluyó en 7 intentos.
 2- Se eliminarón espacios innecesarios para mejorar la visualización del código.
 3- Se corrigió el body y la estructura html.
