@@ -40,21 +40,7 @@ Descripción: Ingresar un valor no numérico como caracteres tipo string y digit
 Resultado esperado:  Mostrar el mensaje “Tipo de datos no permitido, intente ingresando valores enteros (3 dígitos).”
 
 Evidencias del código corregido
-1- El juego se concluyó en 7 intentos.
+1- El juego se concluyó en 7 intentos máximo según las pruebas realizadas.
+
 2- Se eliminarón espacios innecesarios para mejorar la visualización del código.
-3- Se corrigió el body y la estructura html.
-4- Se cambió el método Math.random() *10 por el método Math.floor(Math.random() * 100) + 1 que permite generar directamente un numero del 1 al 100.
-5- Se corrigió la sintaxis escrita de cada mensaje al visualizar los resultados.
-6- A la clase lowOrHi le faltaba el punto para invocarse.
-7- El AddEventListener estaba mal escrito por lo tanto no se invocaba correctamente.
-8- Los resultados ganar/perder estaban invertidos.
-9- Se modificó el valor de ATTEMPS por 10 para coincidir con el mensaje inicial.
-10- La comparación entre los métodos userGuess y randomNumber estaban mal ya que para que se generé correctamente la conversion el primero debe ser string para poder cambiarlo a number.
 
-8- Validación de input por la cantidad de caracteres de entrada
-Descripción: Ingresar más de 3 valores enteros.
-Resultado esperado:  Mostrar el mensaje “Cantidad de dígitos incorrecta, intente ingresando valores enteros (3 dígitos)”.
-
-9- Validación del input caracteres y números flotantes o decimales
-Descripción: Ingresar un valor no numérico como caracteres tipo string y digitos numéricos combinados.
-Resultado esperado:  Mostrar el mensaje “Tipo de datos no permitido, intente ingresando valores enteros (3 dígitos).”
