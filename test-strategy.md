@@ -3,6 +3,7 @@ Objetivo: El objetivo de este documento es detallar las estrategias de pruebas q
 
 
 Casos de Pruebas
+
 1- Número mayor que el aleatorio 
 Descripción: Ingresar un valor numérico que sea mayor que el aleatorio.
 Resultado esperado:  Mostrar el mensaje “Incorrecto, el número es mayor”.
@@ -38,6 +39,7 @@ Resultado esperado:  Mostrar el mensaje “Cantidad de dígitos incorrecta, inte
 9- Validación del input caracteres y números flotantes o decimales
 Descripción: Ingresar un valor no numérico como caracteres tipo string y digitos numéricos combinados.
 Resultado esperado:  Mostrar el mensaje “Tipo de datos no permitido, intente ingresando valores enteros (3 dígitos).”
+
 
 Evidencias del código corregido
 
