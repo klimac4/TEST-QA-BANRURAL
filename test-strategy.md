@@ -1,5 +1,7 @@
 Plan de ataque
 Objetivo: El objetivo de este documento es detallar las estrategias de pruebas que se implementaran en el juego “Adivina tu número”, así como los cambios realizados en el código para que este funcionará y cumpliera con los requisitos especificados.
+
+
 Casos de Pruebas
 1- Número mayor que el aleatorio 
 Descripción: Ingresar un valor numérico que sea mayor que el aleatorio.
@@ -24,6 +26,7 @@ Resultado esperado:  Mostrar el mensaje “Incorrecto, el número es menor”.
 6- Validación de input no numérico
 Descripción: Ingresar un valor no numérico como caracteres tipo string.
 Resultado esperado:  Mostrar el mensaje “Tipo de dato incorrecto intente ingresando valores enteros (3 dígitos)”.
+
 7- Validación de input número (flotantes)
 Descripción: Ingresar un valor numérico como de tipo flotante.
 Resultado esperado:  Mostrar el mensaje “Valor ingresado incorrecto, intente ingresando valores enteros (3 dígitos)”.
@@ -35,11 +38,11 @@ Resultado esperado:  Mostrar el mensaje “Cantidad de dígitos incorrecta, inte
 9- Validación del input caracteres y números flotantes o decimales
 Descripción: Ingresar un valor no numérico como caracteres tipo string y digitos numéricos combinados.
 Resultado esperado:  Mostrar el mensaje “Tipo de datos no permitido, intente ingresando valores enteros (3 dígitos).”
------------------------------------------------------------------------------------------------------------------------
-Evidencias del código corregido
+
+Evidencias del código corregido:
 El juego se concluyó en 7 intentos.
 Se eliminarón espacios innecesarios para mejorar la visualización del código.
-Se corrigió el <body> y la estructura html.
+Se corrigió el body y la estructura html.
 Se cambió el método Math.random() *10 por el método Math.floor(Math.random() * 100) + 1 que permite generar directamente un numero del 1 al 100.
 Se corrigió la sintaxis escrita de cada mensaje al visualizar los resultados.
 A la clase lowOrHi le faltaba el punto para invocarse.
